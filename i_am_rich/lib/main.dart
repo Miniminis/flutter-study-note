@@ -12,7 +12,8 @@ void main() {
         body: Center(
           child: Image(
             //새 탭에서 이미지 열기
-            image: NetworkImage('https://d2ur7st6jjikze.cloudfront.net/offer_photos/41218/255309_large_1535006218.jpg?1535006218',),
+//            image: NetworkImage('https://d2ur7st6jjikze.cloudfront.net/offer_photos/41218/255309_large_1535006218.jpg?1535006218',),
+            image: AssetImage('images/maleficent.jpg',),
           ),
         ),
       )
